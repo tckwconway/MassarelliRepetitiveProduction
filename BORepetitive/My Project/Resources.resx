@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Param_iBinFrom" xml:space="preserve">
+    <value>iBinFrom</value>
+    <comment>Param: In</comment>
+  </data>
+  <data name="Param_iBinFromQtyOnHand" xml:space="preserve">
+    <value>iBinFromQtyOnHand</value>
+    <comment>Param: In</comment>
+  </data>
+  <data name="Param_iBinFromTrxQty" xml:space="preserve">
+    <value>iBinFromTrxQty</value>
+    <comment>Param: In</comment>
+  </data>
+  <data name="Param_iBinTo" xml:space="preserve">
+    <value>iBinTo</value>
+    <comment>Param: In</comment>
+  </data>
+  <data name="Param_iBinToQtyOnHand" xml:space="preserve">
+    <value>iBinToQtyOnHand</value>
+    <comment>Param: In</comment>
+  </data>
+  <data name="Param_iBinToTrxQty" xml:space="preserve">
+    <value>iBinToTrxQty</value>
+    <comment>Param: In</comment>
+  </data>
+  <data name="Param_iCreateDate" xml:space="preserve">
+    <value>iCreateDate</value>
+    <comment>Param: In </comment>
+  </data>
+  <data name="Param_iItemCount" xml:space="preserve">
+    <value>iItemCount</value>
+    <comment>Param: In</comment>
+  </data>
+  <data name="Param_iItemNo" xml:space="preserve">
+    <value>iItemNo</value>
+    <comment>Param: In </comment>
+  </data>
+  <data name="Param_iLoc" xml:space="preserve">
+    <value>iLoc</value>
+    <comment>Param: In </comment>
+  </data>
+  <data name="Param_iLocFrom" xml:space="preserve">
+    <value>iLocFrom</value>
+    <comment>Param: In</comment>
+  </data>
+  <data name="Param_iLocFromQtyOnHand" xml:space="preserve">
+    <value>iLocFromQtyOnHand</value>
+    <comment>Param: In</comment>
+  </data>
+  <data name="Param_iLocTo" xml:space="preserve">
+    <value>iLocTo</value>
+    <comment>Param: In</comment>
+  </data>
+  <data name="Param_iLocToQtyOnHand" xml:space="preserve">
+    <value>iLocToQtyOnHand</value>
+    <comment>Param: In</comment>
+  </data>
+  <data name="Param_iOrderNo" xml:space="preserve">
+    <value>iOrderNo</value>
+    <comment>Param: In</comment>
+  </data>
+  <data name="Param_iord_no" xml:space="preserve">
+    <value>iord_no</value>
+    <comment>Param: In</comment>
+  </data>
+  <data name="Param_iQtyToMove" xml:space="preserve">
+    <value>iQtyToMove</value>
+    <comment>Param: In</comment>
+  </data>
+  <data name="Param_iSessionID" xml:space="preserve">
+    <value>iSessionID</value>
+    <comment>Param: In</comment>
+  </data>
+  <data name="Param_iTranType" xml:space="preserve">
+    <value>iTranType</value>
+    <comment>Param: In</comment>
+  </data>
+  <data name="Param_iTran_type" xml:space="preserve">
+    <value>itran_type</value>
+    <comment>Param: In</comment>
+  </data>
+  <data name="SP_spIMGetCurrentBins" xml:space="preserve">
+    <value>spIMGetCurrentBins</value>
+    <comment>Stored Procedure</comment>
+  </data>
+  <data name="SP_spIMInvBin_WRK" xml:space="preserve">
+    <value>spIMInvBin_WRK</value>
+    <comment>Stored Procedure</comment>
+  </data>
+  <data name="SP_spIMSaveRepetitiveLog_MAS" xml:space="preserve">
+    <value>spIMSaveRepetitiveLog_MAS</value>
+    <comment>Stored Procedure</comment>
+  </data>
+  <data name="Param_iTransactionID" xml:space="preserve">
+    <value>iTransactionID</value>
+    <comment>Param: In</comment>
+  </data>
+  <data name="SP_spIMInventoryTransHistory" xml:space="preserve">
+    <value>spIMInventoryTransHistory</value>
+    <comment>Stored Procedure</comment>
+  </data>
+  <data name="SP_spIMGetItemLocation_MAS" xml:space="preserve">
+    <value>spIMGetItemLocation_MAS</value>
+    <comment>Stored Procedure</comment>
+  </data>
+  <data name="SP_spIMGetQtyOnHand_MAS" xml:space="preserve">
+    <value>spIMGetQtyOnHand_MAS</value>
+    <comment>Stored Procedure</comment>
+  </data>
+</root>
